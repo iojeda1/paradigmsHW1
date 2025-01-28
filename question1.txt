@@ -6,8 +6,7 @@ Q1.1
     2. var b = 2 is local scope 
     3. let c = 3 is block scope 
     4. let d = 10 is block scope 
-    5. var c = 20 is global scope (outside of function)
-    // can c have two scopes? or is it one answer?
+    5. var c = 20 is global scope 
 
 Q1.2
     The first output is 6 because the code in line 8 prints the values a + b + c, wich are 1 + 2 + 3, as declared in lines 1, 4, and 6. 
