@@ -1,1 +1,17 @@
+Isabel Ojeda
+Question 1 
 
+Q1.1 
+    1. let a = 1 is global scope 
+    2. var b = 2 is local scope 
+    3. let c = 3 is block scope 
+    4. let d = 10 is block scope 
+    5. var c = 20 is global scope (outside of function)
+    // can c have two scopes? or is it one answer?
+
+Q1.2
+    The first output is 6 because the code in line 8 prints the values a + b + c, wich are 1 + 2 + 3, as declared in lines 1, 4, and 6. 
+    The second output corresponds to the code in line 10, which is a + b. This is 1 + 2, which equals 3. 
+    The next output is 1, due to the code in line 15, which outputs its value. 
+    Then, the code outputs the value of c, which is now 20, since it was redeclared using var in  line 12. The c inside the function is block scoped, which can't be accessed outside. Thus, we use the new c value.
+    Finally, line 17 outputs an error when trying to print the value of d since its value is declared inside the function myFunction() in line 7 and thus is block scoped, meaning we cannot access it outside. 
